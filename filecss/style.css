@@ -67,7 +67,7 @@ body{
 .container{
     width: 75%;
     margin: auto;
-    padding: 40px;
+    padding: 60px;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -103,4 +103,85 @@ body{
 
 .section-today{
     margin-top: 30px;
+}
+
+.container-check , .margine{
+    margin-top: 20px;
+}
+
+.bottoneviola{
+    display: inline-block;
+    height: 25px;
+    width: 65px;
+    padding: 5px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 11px;
+    color: white;
+    font-size: 11px;
+    background-color: purple;
+}
+
+.error{
+    text-align: center;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    line-height: 14px;
+    border: 1px solid red;
+    color: red;
+    font-size: 7px;
+    border-radius: 50%;
+}
+
+.bottoneverde{
+    display: inline-block;
+    height: 25px;
+    width: 65px;
+    padding: 5px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 11px;
+    color: white;
+    font-size: 11px;
+    background-color: green;
+}
+
+.bottonearancione{
+    display: inline-block;
+    height: 25px;
+    width: 65px;
+    padding: 5px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 11px;
+    color: white;
+    font-size: 11px;
+    background-color:orange;
+}
+
+.bottonerosa{
+    display: inline-block;
+    height: 25px;
+    width: 65px;
+    padding: 5px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 11px;
+    color: white;
+    font-size: 11px;
+    background-color:rgb(255, 0, 191);
+}
+
+.bottoneverdechiaro{
+    display: inline-block;
+    height: 25px;
+    width: 65px;
+    padding: 5px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 11px;
+    color: white;
+    font-size: 11px;
+    background-color:rgb(0, 255, 76);
 }
