@@ -2,9 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: lightgray;
 }
 
 /* header */
+
+.titolo-logo{
+    background-color: white;
+}
 
 .logo{
     padding: 10px 5px 10px 30px;
@@ -14,4 +23,84 @@
 .titolo{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
+}
+
+/* navigatore */
+
+.navigatore{
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.add{
+    border-bottom: 3px solid lightgray;
+    padding: 15px 3px 10px 35px;
+}
+
+.add-task{
+    display: inline-block;
+    height: 30px;
+    width: 85px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    background-color: lightskyblue;
+}
+
+.add-section{
+    display: inline-block;
+    height: 30px;
+    width: 85px;
+    line-height: 24px;
+    text-align: center;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+/* contenuto */
+
+.container{
+    width: 75%;
+    margin: auto;
+    padding: 40px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sottotitolo{
+    font-size: 20px;
+}
+
+.check{
+    text-align: center;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    line-height: 14px;
+    border: 1px solid green;
+    color: green;
+    font-size: 11px;
+    border-radius: 50%;
+}
+
+.bottone{
+    display: inline-block;
+    height: 25px;
+    width: 65px;
+    padding: 5px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 11px;
+    color: white;
+    font-size: 11px;
+    background-color: lightskyblue;
+}
+
+.section-today{
+    margin-top: 30px;
 }
